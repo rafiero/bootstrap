@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="estilo.css" >
+    <title>Bootstrap</title>
+  </head>
+
+  <body>
+
+    
+    <div class="container ">
+
+      <div class="page-header"><h1>Grid Bootstrap</h1></div>
+
+      <div class="row ">
+        
+      <div class="col-xs-6 col-sm-8 col-md-6 col-lg-10 marcador">
+        <h1>
+          1
+        </h1>
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-6 col-lg-2 marcador2">
+        <h1>
+          2
+        </h1>
+      </div>
+
+      </div>
+
+      <div class="page-header">
+        <h1>Formulário Bootstrap</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-7 marcador">
+          <h3>Cadastre-se</h3>
+          
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" class="form-control" id="nome">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+
+            <div class="form-group">
+              <label for="senha">Senha</label>
+              <input type="password" class="form-control" id="senha">
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="opcoes"> PHP
+              </label>
+            
+              <label>
+                <input type="radio" name="opcoes"> SQL
+              </label>
+            </div>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Aceito os termos do servico
+              </label>
+            </div>
+            
+            <button type="submit" class="btn btn-default">Cadastrar</button>
+
+          </form>
+        </div>    
+        
+        
+        <div class="col-sm-5 marcador2">
+          <h3>Logar-se</h3>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Digite seu e-mail">
+          </div>
+
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Digite sua senha">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Logar</button>
+
+        </div>
+     
+      </div>
+
+      <div class="page-header"><h1>Tabelas Bootstrap</h1></div>
+
+      <table class="table table-striped table-bordered table-hover table-condensed">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Marca</th>
+            <th>Preco</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Macbook</td>
+            <td>Apple</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td class="warning">Macbook2</td>
+            <td class="info">Apple</td>
+            <td class="danger">10000</td>
+          </tr>
+          <tr class="success">
+            <td>Macbook3</td>
+            <td>Apple</td>
+            <td>100000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="page-header"><h1>Botões Bootstrap</h1></div>
+
+      <div class="row">
+        <div class="col-sm-6">
+
+          <h3>Botões Padrão</h3>
+
+            <a href="#" class="btn btn-default">Botão link</a>
+            <input type="submit" class="btn btn-default" value="Enviar">
+            <button class="btn btn-default">Botao tipo button</button>
+
+          <h3>Botões Bloco</h3>
+
+            <button class="btn btn-default btn-block">Block Default</button>
+            <button class="btn btn-primary btn-block">Block Primary</button>
+            <button class="btn btn-info btn-block">Block Info</button>
+            <button class="btn btn-success btn-block">Block Success</button>  
+         
+
+        </div>
+        <div class="col-sm-6">
+          <h3>Estilo de Botões</h3>
+            <button class="btn btn-default">Default</button>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-link">Link</button>
+          <h3>Tamanho de Botões</h3>
+            <button class="btn btn-default btn-xs">XS</button>
+            <button class="btn btn-default btn-sm">SM</button>
+            <button class="btn btn-default btn-md">MD</button>
+            <button class="btn btn-default btn-lg">LG</button>
+
+        </div>
+      </div>
+      <div class="page-header"><h1>Botões Bootstrap</h1></div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Imagem Responsiva</h3>
+          <img src="imgs/uvas.png" class="img-responsive">
+        </div>
+        <div class="col-sm-6">
+          <h3>Formas em imagens</h3>
+          <img src="imgs/uvas200.png" class="img-circle"> 
+          <img src="imgs/uvas200.png" class="img-rounded"> 
+          <img src="imgs/uvas200.png" class="img-thumbnail"> 
+        </div>
+      </div>
+      <div class="page-header"><h1>Barra de Navegacão Bootstrap</h1></div>
+      
+    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">Alterar menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> 
+          <a href="#" class="navbar-brand">LOGO</a>
+        </div>
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Contato</a></li>
+
+            <li class="dropdown">
+
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produtos <span class="caret"></span></a>
+
+              <ul class="dropdown-menu">
+                <li><a href="#">Branding</a></li>
+                <li><a href="#">Sites</a></li>
+              </ul>
+            </li>           
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <div class="container">
+      <div class="page-header"><h1>Glyphicons Bootstrap</h1></div>
+      <h3>
+        <span class="glyphicon glyphicon-user"></span> Usuário
+      </h3>
+      <a href="http://gloogle.com">
+        Ir para site 
+        <span class="glyphicon glyphicon-trash"></span>
+      </a>
+      <p style="color: orange; font-size: 50px;">
+        <span class="glyphicon glyphicon-music"></span>
+      </p>
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-refresh"></span> Atualizar
+      </button>
+      <h4>Use ícones em suas interaces</h4>
+      <div class="btn-toolbar">
+        <div class="btn-group">
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-cloud"></span></button>
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span></button>
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-heart"></span></button>
+        </div>
+      </div>
+
+      <div class="page-header"><h1>Modal Windows Bootstrap</h1></div>
+
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#janela">Logar</button>
+
+      <!-- Janela -->
+
+      <form class="modal fade" id="janela">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <!--Cabecalho-->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <div class="modal-title">Efetue o Login</div>
+            </div>
+            <!--Corpo-->
+            <div class="modal-body">  
+
+              <div class="form-group">                
+                <input type="email" class="form-control" id="email" placeholder="digite seu e-mail">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="senha" placeholder="digite sua senha">
+              </div>
+
+            </div>
+            <!--Rodape-->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-primary">Logar-se</button>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="page-header"><h1>Alerta Bootstrap</h1></div>
+
+      <div class="alert alert-success" role="alert" aria-label="close">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+        Sucessso
+      </div>
+
+      <div class="alert alert-info" role="alert" aria-label="close">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+        Info
+      </div>
+
+      <div class="alert alert-warning" role="alert" aria-label="close">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+        Warning
+      </div>
+
+      <div class="alert alert-danger" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="close"><span aria-hidden="true">&times;</span></button>
+        Danger
+      </div>
+
+      <div class="page-header"><h1>Tooltip Bootstrap</h1></div>
+      
+      <h3>Tooltip</h3>
+
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="esquerda">Esquerda</button>
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="direita">Direita</button>
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="top">Top</button>
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="bottom">Bottom</button>
+
+      <div class="btn-toolbar">
+        <div class="btn-group">
+
+            <button type="button" class="btn btn-default" data-toggle="tooltip" title="Tocar">
+              <span class="glyphicon glyphicon-play"></span>
+            </button>
+
+            <button type="button" class="btn btn-default" data-toggle="tooltip" title="Pausar">
+              <span class="glyphicon glyphicon-pause"></span>
+            </button>
+
+            <button type="button" class="btn btn-default" data-toggle="tooltip" title="Parar">
+              <span class="glyphicon glyphicon-stop"></span>
+            </button>
+
+        </div>
+    </div>
+
+      <h3>Popover</h3>
+
+      <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Detalhes!!" 
+              data-content="Lorem ipsum dolorem sit amet!!" data-placement="top">
+                Detalhes
+      </button>
+
+      <div class="page-header">
+        <h1>Tabs Bootstrap</h1>
+        <p class="lead">Altere entre conteúdos</p>
+      </div>
+      <!--Criacao das tabs-->
+      <ul class="nav nav-tabs" role="tablist"> <!--nav-tabs pode ser nav-pills-->
+        <li class="active"><a href="#info" data-toggle="tab" role="tab">Informacoes</a></li>
+        <li><a href="#avaliacao" data-toggle="tab" role="tab">Avaliacoes</a></li>
+        <li><a href="#compre" data-toggle="tab" role="tab">Compre</a></li>
+      </ul>
+      <!--Conteudo das tabs-->
+      <div class="tab-content">
+        <!--Informacoes-->
+        <div class="tab-pane active" role="tabpanel" id="info">
+          <h3>Informacoes</h3>
+          <p>Um texto qualquer 1</p>
+        </div>
+
+        <!--Avaliacoes-->
+        <div class="tab-pane" role="tabpanel" id="avaliacao">
+          <h3>Avaliacoes</h3>
+          <p>Um texto qualquer 2</p>
+        </div>
+
+        <!--Compre-->
+        <div class="tab-pane" role="tabpanel" id="compre">
+          <h3>Compre</h3>
+          <p>Um texto qualquer 3</p>
+        </div>
+      </div>
+    </div>
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
